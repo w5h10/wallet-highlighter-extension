@@ -1,6 +1,6 @@
 
 <div align="center"> 
-  <img src="https://github.com/w5h10/wallet-highlighter-extension/assets/145470330/2979e77f-944a-4189-b9ac-9593f4d5fdf9">
+  <img src="https://github.com/w5h10/wallet-highlighter-extension/assets/145470330/e472af1d-8a4c-4cfd-8a51-1285465c9750">
 </div>
 
 <p align="center">

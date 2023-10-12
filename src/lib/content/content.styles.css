@@ -1,0 +1,250 @@
+.whe-view-details {
+	position: absolute;
+	display: block;
+	width: max-content;
+	height: max-content;
+	padding-right: 20px;
+	transform: translateY(-6px);
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.whe-highlighted {
+	border-radius: 4px;
+}
+
+.whe-details-button {
+	background-color: white;
+	color: gray;
+	text-decoration: none;
+	border-radius: 15px;
+	height: auto;
+	max-height: 22px;
+
+	display: inline-flex;
+	align-items: center;
+
+	overflow: hidden;
+	width: auto;
+	max-width: 22px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s ease;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.whe-details-icon {
+	opacity: 1;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	transition: opacity 0.2s ease;
+}
+
+.whe-details-button:hover {
+	max-width: 400px;
+	max-height: 400px;
+	border-radius: 10px;
+	overflow-x: scroll;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.whe-report-scam-message {
+	font-size: 0.8rem;
+}
+
+.whe-report-scam-button {
+	border: none;
+	background: transparent;
+	color: #4277ff;
+	border-bottom: 0.1rem solid;
+	padding: 0;
+	line-height: 1.1rem;
+	font-size: 0.8rem;
+}
+
+.whe-details-button:hover .whe-details-icon {
+	opacity: 0;
+}
+
+.whe-details-button:hover .whe-details-element {
+	opacity: 1;
+}
+
+.whe-details-element {
+	white-space: nowrap;
+	transition: all 0.25s ease 0.25s;
+	padding: 15px 15px 15px 0px;
+	opacity: 0;
+}
+
+.whe-details-element td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 8px;
+	font-size: 0.9em;
+}
+
+.whe-risk-card span:nth-of-type(2) {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.whe-risk-card span:nth-of-type(1) {
+	font-size: 0.9em;
+}
+
+.whe-risk-card {
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.whe-badge {
+	color: #77838f;
+	background-color: rgba(119, 131, 143, 0.1);
+	padding: 5px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 0.9em;
+}
+
+.whe-badge:hover {
+	color: #fff;
+	background-color: #77838f;
+}
+
+.whe-risk-tags {
+	padding-bottom: 5px;
+}
+
+.whe-risk-tags .whe-badge {
+	margin-right: 5px;
+}
+
+#whe-risk-tags-container-id {
+	overflow: scroll;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/*-------- toolTip ------------*/
+#whe-tooltip {
+	opacity: 0;
+	text-align: center;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	z-index: 99999;
+	padding: 15px;
+	pointer-events: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+}
+#whe-tooltip.whe-top {
+	margin-top: 20px;
+}
+#whe-tooltip.whe-show {
+	opacity: 1;
+	margin-top: 10px;
+	pointer-events: all;
+}
+#whe-tooltip.whe-show.whe-top {
+	margin-top: 10px;
+}
+#whe-tooltip:after {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0, 0, 0, 0.6);
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -10px;
+}
+#whe-tooltip.whe-top:after {
+	border-top-color: transparent;
+	border-bottom: 10px solid rgba(0, 0, 0, 0.6);
+	top: -20px;
+	bottom: auto;
+}
+#whe-tooltip.whe-left:after {
+	left: 10px;
+	margin: 0;
+}
+#whe-tooltip.whe-right:after {
+	right: 10px;
+	left: auto;
+	margin: 0;
+}
+
+/*----------- guage ------------*/
+.whe-guage-mask {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	width: 50px;
+	height: 25px;
+	margin: 5px;
+}
+
+.whe-guage-semi-circle {
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 25px;
+	border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+.whe-guage-semi-circle::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	width: 35px;
+	height: 17.5px;
+	margin-left: -17.5px;
+	background: #fff;
+	border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+
+.whe-guage-semi-circle--mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	transform: rotate(120deg) translate3d(0, 0, 0);
+	transform-origin: center center;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+.whe-guage-semi-circle--mask::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0%;
+	z-index: 2;
+	display: block;
+	width: 50.5px;
+	height: 25.5px;
+	margin: -0.5px 0 0 -0.5px;
+	background: #f2f2f2;
+	border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}

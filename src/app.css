@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.container {
+	font-family: 'Inter', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.button {
+	@apply btn;
+	@apply normal-case text-[0.65rem] font-normal min-h-fit h-[1.7rem];
+}

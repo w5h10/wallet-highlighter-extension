@@ -1,52 +1,8 @@
-
-<div align="center"> 
-  <img src="https://github.com/w5h10/wallet-highlighter-extension/assets/145470330/e472af1d-8a4c-4cfd-8a51-1285465c9750">
-</div>
-
-<p align="center">
-  
-  <h1>wallet-highlighter-extension </h1> 
- Secure Your Crypto Journey with Wallet Highlighter. Your Ultimate Defense Against Scams and Theft.
-  
- This free, chain-agnostic browser extension was created to help the user carryout crypto transactions without the fear of scams.
-
-</p>
-
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![Wallet Highlighter risk actor types (1)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/64165a0c-e675-4c3e-9558-6ba864de7e6d)
+![Wallet Highlighter risk actor types (2)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/e54b53ba-e17f-438f-97ab-a36cf8aeace6)
+![Wallet Highlighter risk actor types (2)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/71211693-e70c-4ca2-9502-f755c1acb5d4)
+![Wallet Highlighter risk actor types (3)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/922d1a52-a32b-4cea-9ebd-596f857e4363)
+![Wallet Highlighter risk actor types (4)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/dea4c944-4c54-4b94-8632-02c91928dcfb)
+![Wallet Highlighter risk actor types (5)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/f4b87809-10cf-4b52-a5d0-e92979b36696)
+![Wallet Highlighter risk actor types (6)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/69db0dd5-ecbe-411d-9899-1c463284259b)
+![Wallet Highlighter risk actor types](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/3e8976f5-6478-4611-a29e-aec722955d88)

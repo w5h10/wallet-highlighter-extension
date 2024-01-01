@@ -1,4 +1,5 @@
 ![Wallet Highlighter risk actor types](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/a633266f-b2ed-4402-9d57-d0ad85714286)
+![Untitled presentation](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/cd3fac39-f6da-4e8b-8f16-495d9e8e5ede)
 ![Wallet Highlighter risk actor types(1)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/89a72a29-a1f3-4e47-86d6-eeb48bdc16b6)
 ![Wallet Highlighter risk actor types(2)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/3dfd7566-5cd8-4992-844d-8746883cad12)
 ![Wallet Highlighter risk actor types(3)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/9691f739-3436-4302-b48f-d576f80aa455)

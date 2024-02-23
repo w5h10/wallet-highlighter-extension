@@ -6,3 +6,4 @@
 ![Wallet Highlighter risk actor types(4)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/72f6d587-b2f3-4d06-9d4b-712091ad1d1b)
 ![Wallet Highlighter risk actor types(5)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/cb8ca1ee-e648-4a09-aa45-4447d9fef327)
 ![Wallet Highlighter risk actor types(6)](https://github.com/w5h10/wallet-highlighter-extension/assets/148644163/349e80a9-5df8-439f-bfec-67a8626a8db5)
+[**PRIVACY POLICY**]([url](https://www.wallethighlighter.com/en/privacy-policy))
